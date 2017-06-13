@@ -18,7 +18,7 @@ public class ChargeService {
 
 	private final Logger LOG = LoggerFactory.getLogger(getClass());
 
-	public ChargeService(IuguConfiguration iuguConfiguration) {
+  public ChargeService(IuguConfiguration iuguConfiguration) {
 		this.iugu = iuguConfiguration;
 	}
 
